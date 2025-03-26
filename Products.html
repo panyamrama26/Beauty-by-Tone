@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Beauty by Tone</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./Products.html">Products</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="gallery-items">
+                
+                <!-- Dry Skin -->
+                <div class="skin-problem">
+                    <h2>Dry Skin</h2>
+                    <img src="./assets/large-main_magnified_dry_skin.jpg" alt="Dry Skin" class="skin-type-image">
+                    <div id="dry-skin-products" class="products">
+                        <div class="product">
+                            <img src="./assets/8WaystoReducetheSignsofWrinklesonYourFace-1200x681.jpg" alt="Dry Skin Product 1">
+                            <p>Product 1</p>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/cf02acacc4ca03c8ec3995685981253c.jpg" alt="Dry Skin Product 2">
+                            <p>Product 2</p>
+                        </div>
+                    </div>
+                    <button onclick="showProducts('dry-skin-products')">View Products</button>
+                </div>
+
+                <!-- Oily Skin -->
+                <div class="skin-problem">
+                    <h2>Oily Skin</h2>
+                    <img src="./assets/oily skin.jpg" alt="Oily Skin" class="skin-type-image">
+                    <div id="oily-skin-products" class="products">
+                        <div class="product">
+                            <img src="./assets/Combination-Skin-Care-Routine.webp" alt="Oily Skin Product 1">
+                            <p>Product 1</p>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/Loreal-Paris-Article-Our-Best-Skin-Care-Products-For-Dry-Skin-D.jpg" alt="Oily Skin Product 2">
+                            <p>Product 2</p>
+                        </div>
+                    </div>
+                    <button onclick="showProducts('oily-skin-products')">View Products</button>
+                </div>
+
+                <!-- Combination Skin -->
+                <div class="skin-problem">
+                    <h2>Combination Skin</h2>
+                    <img src="./comb skin.jpeg" alt="Combination Skin" class="skin-type-image">
+                    <div id="combination-skin-products" class="products">
+                        <div class="product">
+                            <img src="./assets/maxresdefault.jpg" alt="Combination Skin Product 1">
+                            <p>Product 1</p>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/Loreal-Paris-Article-Our-Best-Skin-Care-Products-For-Dry-Skin-D.jpg" alt="Combination skin Product 2">
+                            <p>Product 2</p>
+                        </div>
+                    </div>
+                    <button onclick="showProducts('Combination skin-products')">View Products</button>
+                </div>
+                
+                 <!-- Sensitive skin -->
+                <div class="skin-problem">
+                    <h2>Sensitive skin</h2>
+                    <img src="./assets/sensitive skin.jpg" alt="Sensitive skin" class="skin-type-image">
+                    <div id="Sensitive-skin-products" class="products">
+                        <div class="product">
+                            <img src="./assets/Combination-Skin-Care-Routine.webp" alt="Sensitive skin Product 1">
+                            <p>Product 1</p>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/Loreal-Paris-Article-Our-Best-Skin-Care-Products-For-Dry-Skin-D.jpg" alt="Sensitive skin Product 2">
+                            <p>Product 2</p>
+                        </div>
+                    </div>
+                    <button onclick="showProducts('Sensitive skin-products')">View Products</button>
+                </div>
+            </section>
+        </main>
+    <footer>
+        <p>&copy; 2025 Beauty by Tone</p>
+    </footer>
+</body>
+</html>
